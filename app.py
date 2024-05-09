@@ -3,7 +3,7 @@ from get_image_url import avatar_img_url
 
 app = Flask(__name__)
 
-@app.route('/<id>', methods = ["GET"])
+@app.route('/<object>', methods = ["GET"])
 def index(id):
 
     if request.method == "GET":
